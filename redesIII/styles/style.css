@@ -1,0 +1,59 @@
+body{ /* Aplica essa propriedades universalmente */
+    background-color: #000000; /* Define a cor de fundo */
+    color: white; /* Define a cor da fonte */
+    font-family: Arial, Helvetica, sans-serif; /* Define as fontes */
+    font-size: 20px; /* Define o tamanho da fonte */
+}
+
+h1{
+    text-align: center; /* Centraliza o texto h1 */
+}
+
+p{
+    font-weight: bold; /* Negrita o texto p */
+}
+
+img{
+    border-radius: 20px;
+    height: 181px;
+}
+
+a{
+    text-decoration: none; /* Remove qualquer decoração de hyperlinks */
+    color: #aa00ff;
+}
+
+h3{
+    text-decoration: underline; /* Sublinha o texto h3 */
+}
+
+mark{
+    background-color: #a00020;
+    color: #ffdddd;
+}
+
+button{
+    background-color: palegreen;
+    color: #000000;
+    border-color: goldenrod;
+    border-radius: 2px;
+}
+
+button:hover{ /* Propriedades do botão quando estiver com o cursor em cima */
+    background-color: mediumseagreen;
+    color: #b0ffb0;
+    border-color: gold;
+    cursor: pointer;
+}
+
+header{
+    background-color: #a00020;
+}
+
+main{
+    background-color: darkcyan;
+}
+
+footer{
+    background-color: #aa00ff;
+}
